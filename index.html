@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Daily Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>The Daily Hub</h1>
+    <p>Your daily glance at weather, tasks, and inspiration.</p>
+  </header>
+
+  <main>
+    <section id="weather-widget" class="card">
+      <div>
+        <div class="card-label">Current Weather</div>
+        <div class="weather-loc">New York, USA</div>
+      </div>
+      <div id="weather-content" class="weather-data">
+        <div class="shimmer" style="height: 40px; width: 100%; border-radius: 8px;"></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-label">Daily Checklist</div>
+      <form id="todo-form" class="input-group">
+        <input type="text" id="todo-input" placeholder="Add a new task..." required maxlength="100">
+        <button type="submit">Add Task</button>
+      </form>
+      <ul id="task-list">
+        </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="quote-card">
+      <p id="quote-text" class="quote-text">"Loading inspirational quote..."</p>
+      <p id="quote-author" class="quote-author">— System</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
