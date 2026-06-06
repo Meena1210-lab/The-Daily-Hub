@@ -1,5 +1,4 @@
 # The-Daily-Hub
-# The Daily Hub
 
 A lightweight, responsive single-page web application that provides real-time weather updates, task management, and daily inspiration in one place.
 
